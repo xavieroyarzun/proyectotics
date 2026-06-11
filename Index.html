@@ -1,0 +1,394 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PulseGuard</title>
+
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">PulseGuard</div>
+
+        <ul>
+            <li><a href="#problema">Problema</a></li>
+            <li><a href="#solucion">Solución</a></li>
+            <li><a href="#sensores">Sensores</a></li>
+            <li><a href="#app">App</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+
+    <div class="hero-content">
+
+        <span class="hero-tag">
+            Proyecto TICS I
+        </span>
+
+        <h1>
+            PulseGuard
+        </h1>
+
+        <h2>
+            Monitoreo fisiológico inteligente y preventivo
+        </h2>
+
+        <p>
+            Detecta cambios fisiológicos antes de que ocurran episodios
+            críticos mediante sensores biométricos, análisis en tiempo real
+            y alertas personalizadas.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#app" class="btn-primary">
+                Ver Aplicación
+            </a>
+
+            <a href="#solucion" class="btn-secondary">
+                Cómo Funciona
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="hero-device">
+
+        <div class="device-glow"></div>
+
+        <!-- REEMPLAZA LA RUTA -->
+        <img
+            src="assets/pulsera.png"
+            alt="PulseGuard"
+            class="bracelet-img">
+
+    </div>
+
+</section>
+
+    <section id="problema">
+
+        <h2>La Problemática</h2>
+
+        <div class="problem-grid">
+
+            <div class="card">
+                <i class="fa-solid fa-brain"></i>
+                <h3>Ansiedad</h3>
+                <p>
+                    Muchas personas no detectan señales tempranas de ansiedad.
+                </p>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-ear-listen"></i>
+                <h3>Sobrecarga Sensorial</h3>
+                <p>
+                    Los estímulos del entorno pueden generar desregulación.
+                </p>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-person-falling"></i>
+                <h3>Mareos</h3>
+                <p>
+                    Los episodios vestibulares suelen ocurrir sin aviso claro.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="solucion">
+
+        <h2>Nuestra Solución</h2>
+
+        <div class="solution-container">
+
+            <div class="step">
+                <span>1</span>
+                <h3>Monitoreo</h3>
+                <p>La pulsera recopila señales fisiológicas.</p>
+            </div>
+
+            <div class="step">
+                <span>2</span>
+                <h3>Análisis</h3>
+                <p>Compara los datos con el perfil basal del usuario.</p>
+            </div>
+
+            <div class="step">
+                <span>3</span>
+                <h3>Alerta</h3>
+                <p>Notifica antes de un posible episodio.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="sensores">
+
+        <h2>Sensores del Sistema</h2>
+
+        <div class="sensor-grid">
+
+            <div class="sensor-card">
+                ❤️
+                <h3>Frecuencia Cardíaca</h3>
+            </div>
+
+            <div class="sensor-card">
+                🌡️
+                <h3>Temperatura</h3>
+            </div>
+
+            <div class="sensor-card">
+                📈
+                <h3>GSR / EDA</h3>
+            </div>
+
+            <div class="sensor-card">
+                🧭
+                <h3>Acelerómetro</h3>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="app">
+
+    <h2>Aplicación Móvil</h2>
+
+    <div class="app-container">
+
+        <!-- TELEFONO -->
+
+        <div class="phone">
+
+            <div class="notch"></div>
+
+            <div class="phone-screen">
+
+                <!-- GRAFICO -->
+
+                <div class="graph-section">
+
+                    <div class="risk-bar">
+                        <div class="risk-gradient"></div>
+                    </div>
+
+                    <svg viewBox="0 0 280 140" class="chart">
+
+                        <polyline
+                            class="line-chart"
+                            points="20,95 90,55 130,70 190,35 240,105" />
+
+                        <line x1="10" y1="120" x2="270" y2="120"
+                            class="axis"/>
+
+                    </svg>
+
+                </div>
+
+                <!-- ALERTA -->
+
+                <div class="alert-card">
+
+                    <div class="alert-icon">
+                        <i class="fa-solid fa-bolt"></i>
+                    </div>
+
+                    <div>
+
+                        <h4>Estrés: Moderado</h4>
+
+                        <p>
+                            Se recomienda despejarte un poco.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- MENU -->
+
+                <div class="menu-grid">
+
+                    <div class="menu-card">
+                        <i class="fa-solid fa-chart-column"></i>
+                        <span>Estadísticas</span>
+                    </div>
+
+                    <div class="menu-card">
+                        <i class="fa-solid fa-user-group"></i>
+                        <span>Contacto de emergencia</span>
+                    </div>
+
+                    <div class="menu-card">
+                        <i class="fa-solid fa-crosshairs"></i>
+                        <span>Calibrar</span>
+                    </div>
+
+                    <div class="menu-card">
+                        <i class="fa-solid fa-gear"></i>
+                        <span>Ajustes</span>
+                    </div>
+
+                </div>
+
+                <!-- NAV -->
+
+                <div class="bottom-nav">
+
+                    <i class="fa-solid fa-house"></i>
+
+                    <div class="sos-btn">
+                        SOS
+                    </div>
+
+                    <i class="fa-solid fa-user"></i>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- TEXTO -->
+
+        <div class="app-info">
+
+            <span class="section-tag">
+                INTERFAZ PRINCIPAL
+            </span>
+
+            <h3>
+                Información clara cuando más importa
+            </h3>
+
+            <p>
+                PulseGuard transforma señales fisiológicas en
+                información comprensible para el usuario.
+                La aplicación analiza continuamente los datos
+                provenientes de la pulsera y entrega alertas
+                preventivas antes de posibles episodios.
+            </p>
+
+            <div class="feature-list">
+
+                <div class="feature">
+                    ❤️ Monitoreo fisiológico continuo
+                </div>
+
+                <div class="feature">
+                    📊 Historial y estadísticas
+                </div>
+
+                <div class="feature">
+                    🚨 Sistema de alertas
+                </div>
+
+                <div class="feature">
+                    📞 Contactos de emergencia
+                </div>
+
+                <div class="feature">
+                    🎯 Calibración personalizada
+                </div>
+
+                <div class="feature">
+                    ⚙️ Configuración avanzada
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <section class="alerts">
+
+        <h2>Niveles de Alerta</h2>
+
+        <div class="alert-grid">
+
+            <div class="level green">
+                <h3>Nivel 1</h3>
+                <p>Prevención</p>
+            </div>
+
+            <div class="level orange">
+                <h3>Nivel 2</h3>
+                <p>Posible Evento</p>
+            </div>
+
+            <div class="level red">
+                <h3>Nivel 3</h3>
+                <p>Contacto de Emergencia</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="team">
+
+        <h2>Equipo</h2>
+
+        <div class="team-grid">
+
+            <div class="member">
+                <h3>Javiera Gatica</h3>
+                <p>Jefa de Proyecto</p>
+            </div>
+
+            <div class="member">
+                <h3>Paulina Altamirano</h3>
+                <p>Documentación</p>
+            </div>
+
+            <div class="member">
+                <h3>Xavier Oyarzún</h3>
+                <p>Software y Aplicación</p>
+            </div>
+
+            <div class="member">
+                <h3>Javier Santibáñez</h3>
+                <p>Hardware y Sensores</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+
+        <h2>PulseGuard</h2>
+
+        <p>
+            Proyecto de Pulsera Inteligente para Monitoreo
+            de Desregulación Fisiológica Personal.
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+<div class="background-grid"></div>
+</html>
